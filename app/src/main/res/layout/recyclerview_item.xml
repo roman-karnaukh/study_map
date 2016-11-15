@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/list_item"
-        android:padding="16dp"
+        android:padding="5dp"
         android:background="#ffffff">
 
         <LinearLayout
@@ -44,22 +44,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/tvFullClassroom"
-                    android:layout_above="@+id/person_photo"
                     android:layout_alignParentTop="true"
                     android:textSize="25sp"
                     android:text="Classroom"
-                    android:singleLine="true"
                     android:padding="3pt" />
 
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/tvFloor"
-                    android:layout_above="@+id/person_photo"
                     android:layout_below="@+id/tvFullClassroom"
                     android:text="Floor"
                     android:textStyle="italic"
-                    android:textAlignment="textEnd" />
+                    android:textAlignment="textEnd"
+                    android:paddingRight="10pt"/>
             </LinearLayout>
 
         </LinearLayout>

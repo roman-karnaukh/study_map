@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">StudyMap</string>
     <string name="classroom">Аудитория №</string>
+    <string name="search_hint">Поиск по аудиториям</string>
+    <string name="classrooms_title">Аудитории</string>
 </resources>

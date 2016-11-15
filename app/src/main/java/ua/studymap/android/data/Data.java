@@ -11,11 +11,14 @@ public class Data {
 
     public ArrayList<Classroom> classroomsData() {
         ArrayList<Classroom> classroom = new ArrayList<>();
-        classroom.add(new Classroom("101", "1 floor"));
-        classroom.add(new Classroom("102", "1 floor"));
-        classroom.add(new Classroom("103", "1 floor"));
-        classroom.add(new Classroom("104", "1 floor"));
-        classroom.add(new Classroom("105", "1 floor"));
+        int room = 100;
+        int floor = 1;
+        while (room < 1000){
+            classroom.add(new Classroom(""+ room, floor +" floor"));
+            room++;
+            if(room%100 == 0) floor++;
+        }
+
         return classroom;
     }
 }
